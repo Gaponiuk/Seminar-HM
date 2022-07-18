@@ -165,3 +165,29 @@ for
 }  
 Console.Write("Result: ");
 Console.WriteLine(result);
+
+Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+452 -> 11
+82 -> 10
+9012 -> 12
+
+//Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+//452 -> 11
+//82 -> 10
+//9012 -> 12
+
+int[]array = {0, 1};
+
+array [0] = 8;
+array [1] = 2;
+
+
+Console.Write("Inter digit A: ");
+Console.WriteLine(array[0]); 
+Console.Write("Inter digit B: ");
+Console.WriteLine(array[1]); 
+
+int result = (array[0]) + (array[1]);
+ 
+Console.Write("Result: ");
+Console.WriteLine(result);
