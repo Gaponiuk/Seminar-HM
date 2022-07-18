@@ -142,4 +142,26 @@ void PrintArry(int[] coll){
 
 int[] arry = new int[cube+1];
 Cub(arry);
-PrintArry(arry);
+
+// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+// 3, 5 -> 243 (3⁵)
+// 2, 4 -> 16
+
+int[]array = {0, 1};
+
+array [0] = 3;
+array [1] = 5;
+
+Console.Write("Inter digit A: ");
+Console.WriteLine(array[0]); 
+Console.Write("Inter digit B: ");
+Console.WriteLine(array[1]); 
+
+int result = 1;
+
+for
+(int w = 1; w <= (array[1]); w++){
+    result = result * (array[0]);
+}  
+Console.Write("Result: ");
+Console.WriteLine(result);
